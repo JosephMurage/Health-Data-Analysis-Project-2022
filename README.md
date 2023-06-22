@@ -5,7 +5,7 @@ This is a description of the project and the dataset:
 Table Name: 
 1. Visit Table
 -This table contains information and details for medical visits at Penda Health
-Columns: VisitCode (A unique ID assigned to each clinical visit), PatientCode (A unique ID assigned to each patient), VisitDateTime (Date on which the visit occurred), MedicalCenter(The medical centre at which the visit occurred), VisitCategory (The nature of visit whether in person or vitual), Payor(The name of the payor for the visit. "Cash" means the patient paid for themselves, while Insurance means the bill was paid by an Insurance company) NPS Score(Score provided by patient that rates their satisfaction level with the visit. Score range is 0-10)
+Columns: VisitCode (A unique ID assigned to each clinical visit), PatientCode (A unique ID assigned to each patient), VisitDateTime (Date on which the visit occurred), MedicalCenter(The medical center at which the visit occurred), VisitCategory (The nature of visit whether in person or virtually), Payor(The name of the payor for the visit. "Cash" means the patient paid for themselves, while Insurance means the bill was paid by an Insurance company) NPS Score(Score provided by a patient that rates their satisfaction level with the visit. Score range is 0-10)
 
 2. Invoice Tbl - This table contains information about the total billed amount for each visit. Note: Multiple invoices can be issued against one visit
 Columns: amount (The total amount invoiced for the visit)
@@ -16,7 +16,7 @@ Columns: Diagnosis (The nature of illness recorded for each visit)
 Rules:
 
 1. All results were ROUNDed DOWN to the nearest INTEGER.
-2. For purposes of this project, the least possible invoice amount for any insurance visit was 100. Any amount less than 100 was overriden to 100. This cleaning part of my analysis is detailed in the code.
+2. For purposes of this project, the least possible invoice amount for any insurance visit was 100. Any amount less than 100 was overridden to 100. This cleaning part of my analysis is detailed in the code.
 
 ## Installation
 
@@ -39,8 +39,7 @@ To use this project and analyze the dataset, you may follow the steps below:
 
 2. Navigate to the project directory: cd project-directory
 
-3. Download the dataset file here:
- - Dataset File: 
+3. Download the dataset file here: https://github.com/JosephMurage/Penda-Health-Analytics-Project-2022/blob/master/PendaMed_Data_2023.xlsx
 
 You can download the dataset files by clicking on the links above and saving them to the `dataset` directory in your project.
 
