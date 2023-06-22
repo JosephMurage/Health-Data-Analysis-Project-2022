@@ -55,6 +55,12 @@ You can download the dataset files by clicking on the links above and saving the
 
 ### Dependencies
 
-- The project uses Python libraries such as Pandas and PrettyTables. Ensure that these dependencies are installed before running the code.
+- The project uses Python libraries such as Pandas and PrettyTables.
+- You may need to install additional libraries depending on the specific requirements of your analysis.
 
-"#Penda-Health-Analytics-Project-2022" 
+Enjoy exploring and analyzing the Penda Health patient data!
+
+## Contributing
+
+Contributions are welcome!
+
