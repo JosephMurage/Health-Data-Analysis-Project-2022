@@ -39,7 +39,12 @@ To use this project and analyze the dataset, you may follow the steps below:
 
 2. Download the dataset file here: https://github.com/JosephMurage/Penda-Health-Analytics-Project-2022/blob/master/PendaMed_Data_2023.xlsx
 
-### Analyzing the Data
+### Dependencies
+
+- The project uses Python libraries such as Pandas and PrettyTables.
+- You may need to install additional libraries depending on the specific requirements of your analysis.
+
+### Analysis
 
 1. Launch Jupyter Notebook or JupyterLab.
 
@@ -49,10 +54,6 @@ To use this project and analyze the dataset, you may follow the steps below:
 
 4. Feel free to modify the code or add additional analysis as needed.
 
-### Dependencies
-
-- The project uses Python libraries such as Pandas and PrettyTables.
-- You may need to install additional libraries depending on the specific requirements of your analysis.
 
 Enjoy exploring and analyzing the Penda Health patient data!
 
