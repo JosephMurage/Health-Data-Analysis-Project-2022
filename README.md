@@ -4,7 +4,7 @@ This is a description of the project and dataset:
 
 ### Table Name: 
 1. Visit Table
--This table contains information and details for medical visits at Penda Health
+-This table contains information and details for medical visits at a health facility in Kenya
 Columns: VisitCode (A unique ID assigned to each clinical visit), PatientCode (A unique ID assigned to each patient), VisitDateTime (Date on which the visit occurred), MedicalCenter(The medical center at which the visit occurred), VisitCategory (The nature of visit whether in person or virtually), Payor(The name of the payor for the visit. "Cash" means the patient paid for themselves, while Insurance means the bill was paid by an Insurance company) NPS Score(Score provided by a patient that rates their satisfaction level with the visit. Score range is 0-10)
 
 2. Invoice Tbl - This table contains information about the total billed amount for each visit. Note: Multiple invoices can be issued against one visit
