@@ -1,4 +1,4 @@
-## Penda Med Data Analytics Project 2022
+## Health Data Analytics Project 2022
 
 This is a description of the project and dataset: 
 
